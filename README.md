@@ -122,15 +122,16 @@ MIT License - See [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-- Original TextPad syntax by Tom Schaefer (toms@xmission.com)
+- Original TextPad syntax by Tom Schaefer, Better Software Solutions, Inc. (toms@bettersoftwaresolutions.com)
 - Conversions and additional editor support by the community
 
 ## Resources
 
-- [Unisys MCP Documentation](https://www.unisys.com) (official vendor)
+- [Unisys MCP Documentation](https://support.unisys.com) (official vendor)
+- [ALGOL Programing Reference Manual vol. 1 (MCP 22)](https://public.support.unisys.com/aseries/docs/ClearPath-MCP-22.0/86000098-520/86000098-520/index.html)
 - Example code in the [examples/](examples/) directory
 - Active Burroughs ALGOL community
-- [UNITE] (https://unite.org) Unisys Users Group
+- [UNITE](https://unite.org) Unisys Users Group
 
 ---
 
