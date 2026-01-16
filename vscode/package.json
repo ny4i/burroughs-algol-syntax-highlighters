@@ -1,0 +1,48 @@
+{
+  "name": "burroughs-algol",
+  "displayName": "Burroughs ALGOL",
+  "description": "Syntax highlighting for Burroughs Extended ALGOL (Unisys MCP)",
+  "version": "1.0.0",
+  "publisher": "burroughs-algol-community",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "keywords": [
+    "algol",
+    "burroughs",
+    "unisys",
+    "mcp",
+    "mainframe"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/burroughs-algol-syntax-highlighters"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "burroughs-algol",
+        "aliases": [
+          "Burroughs ALGOL",
+          "ALGOL",
+          "algol"
+        ],
+        "extensions": [
+          ".alg",
+          ".algol"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "burroughs-algol",
+        "scopeName": "source.algol.burroughs",
+        "path": "./syntaxes/burroughs-algol.tmLanguage.json"
+      }
+    ]
+  }
+}
