@@ -4,7 +4,7 @@ Syntax highlighting for Burroughs Extended ALGOL (Unisys MCP systems) across mul
 
 ## About Burroughs ALGOL
 
-Burroughs Extended ALGOL is a dialect of ALGOL 60 with extensions for systems programming on Burroughs mainframe computers (now Unisys MCP). Despite being a legacy language from the 1960s-1980s, approximately 200 developers worldwide still actively use it to maintain critical systems.
+Burroughs Extended ALGOL is a dialect of ALGOL 60 with extensions for systems programming on Burroughs mainframe computers (now Unisys MCP). Despite being a legacy language from the 1960s-1980s, the language is still used worldwide to maintain critical systems.
 
 ### Language Features
 
@@ -60,7 +60,7 @@ array a[0:MAXLENV-1];  % Array of 48-bit words
 pointer pa;
 
 pa := pointer(a);
-replace pa:pa by "Hello world ";
+replace pa:pa by "Hello world "; % Can also use replace pa:a pointer assignment syntax
 
 r := 0 & 4[7:8];  % Bit field operation
 for i := 1 step 1 until r.[7:8] do
@@ -110,7 +110,7 @@ To add support for a new editor:
 
 ## Community
 
-Approximately 200 developers worldwide still use Burroughs ALGOL. If you're one of them:
+There are still a bunch of developers that use this language to support the Unisys MCP systems. If you're one of them:
 
 - Share this repository with your colleagues
 - Contribute example code to help document the language
@@ -129,7 +129,8 @@ MIT License - See [LICENSE](LICENSE) file for details.
 
 - [Unisys MCP Documentation](https://www.unisys.com) (official vendor)
 - Example code in the [examples/](examples/) directory
-- Active Burroughs ALGOL community (~200 users worldwide)
+- Active Burroughs ALGOL community
+- [UNITE] (https://unite.org) Unisys Users Group
 
 ---
 
